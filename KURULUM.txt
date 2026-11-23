@@ -1,0 +1,17 @@
+RENDER WEB SERVICE DOSYALARI
+
+Bu pakette yalnızca eksik iki dosya bulunur:
+- package.json
+- server.js
+
+GitHub deposunun ana dizinine, mevcut index.html ve .modelbin dosyalarının yanına ekleyin.
+Mevcut index.html ve araç modeli dosyalarını silmeyin veya değiştirmeyin.
+
+Render ayarları:
+- Language: Node
+- Build Command: npm install
+- Start Command: npm start
+- Root Directory: boş
+
+Sunucu, mevcut HTML'deki /ws WebSocket protokolüyle uyumlu oda oluşturma/katılma mesajlarını ve en fazla 4 oyuncuyu destekler.
+Bu, oda sunucusu altyapısıdır; hesap açma/doğrulama veya oyuncu adlarını gösterme sistemi eklemez.
